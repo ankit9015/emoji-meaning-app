@@ -35,9 +35,23 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
+      <h1 style={{ padding: "1rem", color: "#2869d1" }}>Emoji Meaning App</h1>
+      <p
+        style={{
+          fontSize: "large"
+        }}
+      >
+        Select an emoji or click on suggested emoticons below
+      </p>
       <input onChange={onEmojiInput}></input>
-      <p>Meaning: {emojiName}</p>
+      <p
+        style={{
+          fontSize: "large",
+          color: "#118a2d"
+        }}
+      >
+        Meaning: {emojiName}
+      </p>
 
       <h1>emojis we know:</h1>
       {emojisWeKnow.map(function (emoji) {
