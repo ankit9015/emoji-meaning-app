@@ -9,6 +9,9 @@ const emojiDict = {
   "😴": "sleeping",
   "😠": "angry",
   "😞": "sad",
+  "😘": "kiss",
+  "😋": "savouring food",
+  "😏": "smirk",
   "": ""
 };
 
